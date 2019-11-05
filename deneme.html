@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deneme</title>
+    <link rel="stylesheet" href="CSS/flexible.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <style>
+    </style>
+
+</head>
+
+<body>
+
+    <div class="wrap xl-3">
+        <div class="col xl-3-12 xl-center">Lorem ipsum dolor sit amet.</div>
+
+
+
+
+        <div class="col xl-6-12" id="mainsection">
+            <div class="navbar">
+                <li href="#">
+                    <a>Lorem</a>
+                </li>
+                <li href="#">
+                    <a>Instagram</a>
+                </li>
+                <li href="#">
+                    <a>Twitter</a>
+                </li>
+                <li href="#" style="float:right;">
+                    <a>v1.0</a>
+                </li>
+            </div>
+
+            
+
+                <!-- SECTION 1  -->
+                <div class="section1 hizalama" style="padding-top:30px;">
+                    <img src="../pp.jpg" alt="Resim Bulunamadı">
+                    <div id="title">
+                        <b>VolkanGünay</b> <br>
+                        <span> 2000 Model Frontend Developer </span>
+                    </div>
+
+                    <div class="about">
+                        Selamlar, ben Volkan. 19 yaşındayım 2-3 senedir yazılım ile ilgileniyorum. Kendimi şuanlık web
+                        front-end alanında geliştirmekteyim. İlerleyen zamanlarda
+                        back-end kısmına giriş yapıp full-stack
+                        ilerlemek istiyorum. Remote <br>
+                        bitirdiğim işler ve çalıştığım şirket oldu.
+                        <!-- Kendime 2000 model
+                    developer şeklinde sesleniyorum.  -->
+                        Başkent Üniversitesi Bilgisayar Programcılığı okumaktayım. Kendime ait ilerlettiğim
+                        projelerim bulunmakta. Şuanlık hedefim okulla beraber kendimi daha iyi geliştirip büyük
+                        projelerde
+                        Frontend / Full-stack Web development alanında yer almak istiyorum.
+
+                    </div> 
+                </div> <!-- SECTION 1 FINISH  -->
+                
+                <hr>
+
+                <!-- SECTION 2  -->
+
+                <div class="section2">
+
+                    <div class="twitch_title xl-center">
+                        <img src="Images/twitch.png" alt="Resim Bulunamadı." width="50"> / volkangunay
+                    </div>
+
+                    <div class="xl-center">
+                        <div id="player"></div>
+                    </div>
+                </div>
+
+                <hr>
+
+
+
+
+
+                <!-- <a class="twitter-timeline" data-lang="en" data-width="360" data-height="500" data-theme="dark"
+                    data-link-color="#E81C4F" href="https://twitter.com/vgunaydev?ref_src=twsrc%5Etfw">Tweets by
+                    vgunaydev</a> -->
+            </div>
+
+            <div class="col xl-3-12 xl-center">Lorem ipsum dolor sit amet.</div>
+
+        </div>
+
+
+
+
+
+
+    <script src="http://player.twitch.tv/js/embed/v1.js"></script>
+
+    <script type="text/javascript">
+        var options = {
+            width: 900,
+            height: 500,
+            channel: "volkangunay",
+            autoplay: false,
+        };
+        var player = new Twitch.Player("player", options);
+        player.setVolume(0.5);
+    </script>
+
+    <!-- <script>
+        var reqURL = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent("https://www.youtube.com/feeds/videos.xml?channel_id=");
+        function loadVideo(iframe) {
+            $.getJSON(reqURL + iframe.getAttribute('cid'),
+                function (data) {
+                    var videoNumber = (iframe.getAttribute('vnum') ? Number(iframe.getAttribute('vnum')) : 0);
+                    console.log(videoNumber);
+                    var link = data.items[videoNumber].link;
+                    id = link.substr(link.indexOf("=") + 1);
+                    iframe.setAttribute("src", "https://youtube.com/embed/" + id + "?controls=0&autoplay=1");
+                }
+            );
+        }
+        var iframes = document.getElementsByClassName('latestVideoEmbed');
+        for (var i = 0, len = iframes.length; i < len; i++) {
+            loadVideo(iframes[i]);
+        }
+    </script> -->
+</body>
+
+</html>

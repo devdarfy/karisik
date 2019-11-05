@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "helvetica";
+  src: url("../Font/HelveticaNeueLTPro-Bd.otf");
+  src: url("../Font/HelveticaNeueLTPro-Lt.otf");
+  src: url("../Font/HelveticaNeueLTPro-Md.otf");
+  src: url("../Font/HelveticaNeueLTPro-Roman.otf");
+  src: url("../Font/HelveticaNeueLTPro-Th.otf");
+  src: url("../Font/NeueBold.otf"); }
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #E8E8E8; }
+
+#mainsection {
+  background-color: white; }
+  #mainsection .hizalama {
+    padding: 0px 30px 0px 30px; }
+  #mainsection .section1 img {
+    border-radius: 10px;
+    float: left;
+    width: 100px; }
+  #mainsection .section1 .about {
+    word-break: break-all;
+    display: inline-block;
+    padding-top: 25px;
+    font-family: "helvetica";
+    letter-spacing: 1px;
+    line-height: 21px; }
+  #mainsection .section1 #title {
+    float: left;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+    #mainsection .section1 #title span {
+      font-size: 18px; }
+    #mainsection .section1 #title b {
+      font-size: 24px; }
+  #mainsection .navbar {
+    background-color: #262532;
+    /* #151515 */
+    height: 50px; }
+    #mainsection .navbar li {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      color: white;
+      list-style: none;
+      padding-top: 10px;
+      display: inline-block; }
+      #mainsection .navbar li a {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+      #mainsection .navbar li:first-child {
+        margin-left: 30px; }
+        #mainsection .navbar li:first-child:hover {
+          border-bottom: 3px solid #FFCC00; }
+      #mainsection .navbar li:last-child {
+        margin-right: 30px;
+        font-size: 16px;
+        padding-top: 15px; }
+
+.section2 .twitch_title {
+  font-size: 26px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  letter-spacing: 1px; }
+
+/*# sourceMappingURL=main.css.map */
